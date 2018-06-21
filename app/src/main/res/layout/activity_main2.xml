@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/b"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tic"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textSize="50dp"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tac"
+            android:fontFamily="cursive"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Toe"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4" />
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#ffffff"
+
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="295dp"
+            android:layout_height="77dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="134dp"
+            android:fontFamily="cursive"
+            android:text="Man vs Man"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp"
+            android:fontFamily="cursive"
+            android:text="Man vs Sajal"
+            android:textSize="40dp" />
+
+
+
+</RelativeLayout>
