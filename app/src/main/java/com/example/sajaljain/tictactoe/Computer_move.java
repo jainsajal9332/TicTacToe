@@ -1,7 +1,5 @@
 package com.example.sajaljain.tictactoe;
 
-
-
         import android.util.Pair;
         import android.widget.Button;
 
@@ -140,7 +138,7 @@ public class Computer_move {
 
 
 
-            // System.out.println("UJJWAL"+move_number);this.print();
+            
             priority_level*=1000;
             value=this.sajal_move(i0,j0);
             priority_level/=1000;
