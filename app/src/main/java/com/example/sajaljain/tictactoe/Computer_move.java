@@ -138,9 +138,6 @@ public class Computer_move {
             this.current_symbol=this.change_sign(this.current_symbol);
 
 
-
-
-            // System.out.println("UJJWAL"+move_number);this.print();
             priority_level*=1000;
             value=this.sajal_move(i0,j0);
             priority_level/=1000;
